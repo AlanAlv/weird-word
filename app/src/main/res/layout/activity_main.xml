@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp"
+android:gravity="center"
+android:background="#E91E63"
+android:orientation="vertical"
+tools:context="com.example.wtww.MainActivity">
+
+
+    <TextView
+        android:id="@+id/wordLabelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="What The Weird Word!"
+        android:textAllCaps="true"
+        android:textColor="#F2F2F2"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/wordNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Word name goes here..."
+        android:textColor="@android:color/white"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/wordMeaningView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Word meaning goes here..."
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/showWordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="SHOW THE NEXT WEIRD WORD"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"/>
+
+</LinearLayout>
+
