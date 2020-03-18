@@ -1,7 +1,7 @@
 package com.example.wtww;
 
 
-public class weirdWordDeck {
+public class WeirdWordDeck {
 
     private static final String[] weirdWord = {
 
