@@ -49,7 +49,8 @@ tools:context="com.example.wtww.MainActivity">
         android:background="@android:color/white"
         android:text="@string/app_button"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"/>
+        android:textSize="24sp"
+        android:onClick="displayWeirdWord"/>
 
 </LinearLayout>
 
