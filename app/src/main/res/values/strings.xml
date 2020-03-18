@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WTWW</string>
+    <string name="app_label">WHAT THE WEIRD WORD!</string>
+    <string name="app_button">SHOW THE NEXT WEIRD WORD</string>
+    <string name="word_name_text">Word name goes here…</string>
+    <string name="word_meaning_text">Word meaning goes here…</string>
 </resources>
